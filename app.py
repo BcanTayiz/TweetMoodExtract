@@ -11,7 +11,7 @@ translator = Translator()
 
 
 with open('data', 'rb') as handle:
-    data = pickle.load(handle)
+    data = pickle.load(handle,protocol=2)
 
 
 # text = data['text'].values.astype('U').tolist()
@@ -19,7 +19,7 @@ with open('data', 'rb') as handle:
 
 
 with lzma.open('lmza_test.xz', 'rb') as handle:
-    model = pickle.load(handle)
+    model = pickle.load(handle,protocol=2)
 
 def max2(numbers):
     count = 0
