@@ -1,6 +1,6 @@
 import pandas as pd     
 import numpy as np
-import pickle5 as pickle
+import pickle
 from googletrans import Translator
 import streamlit as st
 import brotli
