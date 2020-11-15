@@ -3,7 +3,6 @@ import numpy as np
 import pickle
 from googletrans import Translator
 import streamlit as st
-import brotli
 import lzma
 
 
