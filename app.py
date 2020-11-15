@@ -5,7 +5,6 @@ from googletrans import Translator
 import streamlit as st
 import brotli
 import lzma
-import pickle5 as pickle
 
 
 translator = Translator()
